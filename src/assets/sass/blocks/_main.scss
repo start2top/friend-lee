@@ -1,0 +1,69 @@
+.main {
+    h1 {
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 90%;
+        margin: 213px auto auto 47px;
+        width: 753px;
+        height: 98px;
+    }
+    label {
+        font-family: 'Gilroy';
+        font-weight: 400;
+        font-size: 16px;
+        color: #575757;
+    }
+    &_form {
+        margin: 76px 48px auto 47px;
+        display: grid;
+        height: 244px;
+        width: 1321px;
+        grid-template-columns:  1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        &_container {
+            h2, b {
+                display: block;
+                font-weight: 900;
+                font-size: 54px;
+                line-height: 90%;
+                color: #333333;
+            }
+        }
+        .range_block {
+            position: relative;
+            width: 427px;
+            height: 68px;
+            background: #F3F3F4;
+            border-radius: 16px;
+            input {
+                position: absolute;
+                bottom: -7px;
+                width: 379px;
+                left: 22px;
+                color: $main-color;
+            }
+            label {
+                position: absolute;
+                top: -44px;
+            }
+            p {
+                position: absolute;
+                top: 50%;
+                left: 24px;
+                transform: translateY(-50%);
+                font-weight: 900;
+                font-size: 30px;
+                color: #575757;
+            }
+            span {
+                position: absolute;
+                top: 50%;
+                right: 24px;
+                transform: translateY(-50%);
+                font-weight: 900;
+                font-size: 30px;
+                color: #575757;
+            }
+        }
+    }
+}
