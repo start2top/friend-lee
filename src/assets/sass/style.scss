@@ -1,9 +1,6 @@
 @import './libs/bootstrap-reboot.min';
 @import './libs/fonts';
 @import './variables/variables';
-@import './components/main';
-@import './components/button';
-@import './components/input';
 
 
 
@@ -14,3 +11,8 @@
     font-family: 'Nekst';
     font-style: normal;
 }
+
+@import './components/main';
+@import './components/button';
+@import './components/input';
+@import './components/media';
