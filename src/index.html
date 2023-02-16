@@ -10,7 +10,7 @@
 <body>
     <section class="main">
         <h1>Рассчитайте стоимость автомобиля в лизинг</h1>
-    <form action="POST" class="main_form">
+    <form class="main_form">
        <div class="main_form_container range_block">
             <p>1500000</p>
             <span>₽</span>
@@ -20,14 +20,14 @@
        <div class="main_form_container range_block">
             <p>1500000</p>
             <span>13%</span>
-            <label for="price">Стоимость автомобиля</label>
-            <input type="range" name="price" min="1500000" max="10000000" placeholder="1500000">
+            <label for="initial-payment">Первоначальный взнос</label>
+            <input type="range" name="initial-payment" min="1500000" max="10000000" placeholder="1500000">
        </div>
        <div class="main_form_container range_block">
             <p>1500000</p>
             <span>мес.</span>
-            <label for="price">Стоимость автомобиля</label>
-            <input type="range" name="price" min="1500000" max="10000000" placeholder="">
+            <label for="lease-term">Срок лизинга</label>
+            <input type="range" name="lease-term" min="1500000" max="10000000" placeholder="">
        </div>
        <div class="main_form_container">
             <label for="sum">Сумма договора лизинга</label>
@@ -40,5 +40,6 @@
        <button>Оставить заявку</button>
     </form>
     </section>
+    <script src="./js/script.js"></script>
 </body>
 </html>
