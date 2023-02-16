@@ -1,0 +1,24 @@
+input {
+    position: absolute;
+    bottom: 0;
+    width: 379px;
+    left: 22px;
+    color: $main-color;
+    -webkit-appearance: none;
+    &[type=range]::-webkit-slider-thumb { 
+        -webkit-appearance: none;
+        background-color: $main-color;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        cursor: pointer;
+        transform: translateY(-50%);
+    }
+    &[type=range]::-webkit-slider-runnable-track {
+        -webkit-appearance: none;
+        z-index: 1;
+        background: linear-gradient(#E1E1E1, #E1E1E1);
+        height: 2px;
+    }
+}
+

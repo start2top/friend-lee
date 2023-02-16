@@ -35,12 +35,13 @@
             height: 68px;
             background: #F3F3F4;
             border-radius: 16px;
-            input {
-                position: absolute;
-                bottom: -7px;
-                width: 379px;
-                left: 22px;
-                color: $main-color;
+            &:nth-child(2) span {
+                display: block;
+                padding: 5px 10px;
+                width: 69px;
+                height: 54px;
+                background: #EBEBEC;
+                border-radius: 16px;
             }
             label {
                 position: absolute;
