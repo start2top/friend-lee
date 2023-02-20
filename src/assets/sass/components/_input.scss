@@ -26,5 +26,8 @@ input {
         background: linear-gradient(#E1E1E1, #E1E1E1);
         height: 2px;
     }
+    &[type=range]::-webkit-slider-runnable-track::after{
+        background: linear-gradient($main-color, $main-color);
+    }
 }
 
